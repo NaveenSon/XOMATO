@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import React, {useEffect, useContext, useState } from "react";
 import "./PlaceOrder.css";
 import { useNavigate } from "react-router-dom"; 
@@ -133,14 +133,4 @@ alert("Please add items")
 };
 
 export default PlaceOrder;
-=======
-import React from 'react'
-import './PlaceOrder.css'
-const PlaceOrder = () => {
-  return (
-    <div>PlaceOrder</div>
-  )
-}
 
-export default PlaceOrder
->>>>>>> 89eb54fea312c348b5e26080165db9e67e099ad9
