@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .food-display{
     margin-top: 30px;
 }
@@ -13,20 +13,5 @@
     margin-top: 30px;
     gap: 30px;
     row-gap: 50px ;
-=======
-.food-display{
-    margin-top: 30px;
-}
 
-.food-display h2{
-    font-size: max (2vw,24px);
-}
-
-.food-display-list{
-    display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
-    margin-top: 30px;
-    gap: 30px;
-    row-gap: 50px ;
->>>>>>> 89eb54fea312c348b5e26080165db9e67e099ad9
 }
