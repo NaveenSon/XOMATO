@@ -91,5 +91,4 @@ export default StoreContextProvider
 };
 
 
-export default StoreContextProvider; 
->>>>>>> 89eb54fea312c348b5e26080165db9e67e099ad9
+
