@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 import Navbar from './components/Navbar/Navbar'
 import {Route, Routes } from 'react-router-dom'
@@ -34,31 +34,4 @@ const App = () => {
 }
 
 export default App
-=======
-import React from 'react'
-import Navbar from './components/Navbar/Navbar'
-import { Routes,Route, Router } from 'react-router-dom'
-import Home from './pages/Home/Home'
-import Cart from './pages/Cart/Cart'
-import PlaceOrder from './pages/PlaceOrder/PlaceOrder'
-const App = () => {
-  return (
-    <Router>
 
-    
-    <div className='app'>
-<Navbar/>
-<Routes>
-    <Route path='/' element={<Home/>} />
-    <Route path='/cart' element={<Cart/>} />
-    <Route path='/order' element={<PlaceOrder/>} />
-
-     
-</Routes>
-    </div>
-    </Router>
-  )
-}
-
-export default App
->>>>>>> 89eb54fea312c348b5e26080165db9e67e099ad9
