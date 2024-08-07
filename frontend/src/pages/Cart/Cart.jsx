@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import React, { useContext } from "react";
 import "./Cart.css";
 import { StoreContext } from "../../context/StoreContext";
@@ -79,14 +79,4 @@ const Cart = () => {
 };
 
 export default Cart;
-=======
-import React from 'react'
-import './Cart.css'
-const Cart = () => {
-  return (
-    <div>Cart</div>
-  )
-}
 
-export default Cart
->>>>>>> 89eb54fea312c348b5e26080165db9e67e099ad9
