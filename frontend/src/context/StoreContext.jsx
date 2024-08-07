@@ -88,7 +88,7 @@ return(
 export default StoreContextProvider 
 
 
-};
+
 
 
 
