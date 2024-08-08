@@ -7,7 +7,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 //placing user order from frontend
 const placeOrder = async (req, res) => {
-  const frontend_url = "https://xomato-frontend.onrender.com/";
+  const frontend_url = "http://xomato-frontend.onrender.com";
 
   try {
     const { userId, items, amount, address } = req.body;
