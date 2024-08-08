@@ -10,7 +10,7 @@ import 'react-toastify/dist/ReactToastify.css'
 
 const App = () => {
 
-  const url ="https://localhost:4000"
+  const url ="https://xomato-backend.onrender.com"
   return (
     <div>
     <ToastContainer/>
